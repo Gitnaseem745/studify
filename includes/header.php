@@ -16,11 +16,11 @@ require_once __DIR__ .'/../config/paths.php';
     <nav class="container h-20 px-4 bg-gray-900 text-white">
         <div class="flex justify-between items-center h-full">
             <a class="shadow text-2xl font-bold" href="<?= BASE_URL ?>">
-                Studentify
+                Studify
             </a>
             <div>
                 <a class="px-4 py-2 bg-blue-500 shadow hover:bg-blue-600 rounded mr-4" href="<?= BASE_URL ?>/dashboard.php">
-                        Dashbord
+                        Dashboard
                     </a>
                 <?php if (isLoggedIn()): ?>
                     <a class="px-4 py-2 bg-blue-500 shadow hover:bg-blue-600 rounded" href="<?= BASE_URL ?>/auth/logout.php">
